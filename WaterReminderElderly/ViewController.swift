@@ -11,6 +11,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var sudahMinumButton: UIButton!
     @IBOutlet weak var minButton: UIButton!
     @IBOutlet weak var plusButton: UIButton!
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var welcomeDateLabel: UILabel!
     
     
     private let button: UIButton = {
@@ -35,6 +37,17 @@ class ViewController: UIViewController {
         sudahMinumButton.layer.cornerRadius = 16
         minButton.layer.cornerRadius = 16
         plusButton.layer.cornerRadius = 16
+        
+        //change welcome label
+        welcomeLabel.text = "Halo, Bro !"
+        
+        //change date
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEE, dd MMMM yyyy"
+        let current_date = dateFormatter.string(from: date)
+        welcomeDateLabel.text = current_date
+        //end change data
     }
 
     @objc private func didTapButton(){
