@@ -467,6 +467,8 @@ Time</string>
                         <outlet property="minButton" destination="ukD-P8-6at" id="fIY-ed-icw"/>
                         <outlet property="plusButton" destination="eOS-hD-nNR" id="YL0-lb-DGa"/>
                         <outlet property="sudahMinumButton" destination="Mdz-X5-Itm" id="yP0-EL-l8p"/>
+                        <outlet property="welcomeDateLabel" destination="izs-yG-CL1" id="qeu-io-ccM"/>
+                        <outlet property="welcomeLabel" destination="zHB-IY-87h" id="AOp-y8-GF6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3t6-s4-nkr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
