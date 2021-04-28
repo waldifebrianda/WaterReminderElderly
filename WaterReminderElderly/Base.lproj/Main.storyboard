@@ -47,15 +47,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q6T-r9-vGX">
-                                <rect key="frame" x="167" y="176" width="207" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="IFy-um-r0m"/>
-                                    <constraint firstAttribute="width" constant="207" id="elP-8V-yfC"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="o0M-dQ-7Hs">
                                 <rect key="frame" x="167" y="223" width="207" height="34"/>
                                 <constraints>
@@ -189,6 +180,15 @@ Time</string>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="WUB-1z-8wr"/>
                                     <constraint firstAttribute="width" constant="207" id="gjm-Lo-Mbz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="q6T-r9-vGX">
+                                <rect key="frame" x="167" y="176" width="207" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="IFy-um-r0m"/>
+                                    <constraint firstAttribute="width" constant="207" id="elP-8V-yfC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -367,7 +367,7 @@ Time</string>
                                 </constraints>
                                 <color key="progressTintColor" name="AccentColor"/>
                             </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today,  23  April 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izs-yG-CL1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today,  23 April 2021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izs-yG-CL1">
                                 <rect key="frame" x="20" y="159" width="196" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="0g1-26-hSE"/>
