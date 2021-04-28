@@ -8,7 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var sudahMinumButton: UIButton!
+    @IBOutlet weak var minButton: UIButton!
+    @IBOutlet weak var plusButton: UIButton!
+    
+    
     private let button: UIButton = {
        let button = UIButton()
         button.backgroundColor = .white
@@ -20,6 +24,7 @@ class ViewController: UIViewController {
     }()
     
     
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -27,7 +32,9 @@ class ViewController: UIViewController {
         button.frame = CGRect(x: 0, y: 0, width: 220, height: 55)
         button.center = view.center
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
-        
+        sudahMinumButton.layer.cornerRadius = 16
+        minButton.layer.cornerRadius = 16
+        plusButton.layer.cornerRadius = 16
     }
 
     @objc private func didTapButton(){
