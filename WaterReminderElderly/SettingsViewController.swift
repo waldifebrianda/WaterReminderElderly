@@ -9,10 +9,13 @@ import Foundation
 import UIKit
 
 class SettingsViewController: UIViewController{
+    @IBOutlet weak var saveButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
         
-        //title = "Settings"
+        saveButton.layer.cornerRadius = 16
     }
 }
