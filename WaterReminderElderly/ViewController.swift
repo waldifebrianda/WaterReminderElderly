@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var plusButton: UIButton!
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var amountWaterDrinkLabel: UILabel!
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var welcomeDateLabel: UILabel!
     
     var incrementWater = 0
     
@@ -20,6 +22,14 @@ class ViewController: UIViewController {
         
         
         super.viewDidLoad()
+        
+        //edit welcome label
+        welcomeLabel.text = "Halo, Bro !"
+        //edit welcome date label
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "EEE, dd MMMM yyyy"
+        let dateString = dateFormatter.string(from:Date())
+        welcomeDateLabel.text = dateString
         
         amountWaterDrinkLabel.text = String(incrementWater)
         
