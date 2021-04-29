@@ -20,12 +20,12 @@ class SettingsViewController: UIViewController{
         super.viewDidLoad()
         
         saveButton.layer.cornerRadius = 16
-
+        
         timePickerView.delegate = self
         timePickerView.dataSource = self
         ReminderTimePick.inputView = timePickerView
         ReminderTimePick.placeholder = "Select Hour"
-//        ReminderTimePick.textAlignment = .center
+        //        ReminderTimePick.textAlignment = .center
     }
     
     @IBAction func buttonSaveall(_ sender: Any) {
@@ -45,10 +45,10 @@ class SettingsViewController: UIViewController{
         center.removeAllPendingNotificationRequests()
         
         let content = UNMutableNotificationContent()
-        content.title = "Ayo jangan lupa Minum yaa!!"
-        content.body = "Minum dapat menyegarkan diri anda dan membuat anda tetap fokus 😉"
+        content.title = "Are you there?"
+        content.body = "This Is your body speaking. Drink water!"
         content.sound = .default
-        content.categoryIdentifier = "alarm"
+        content.categoryIdentifier = "Alarm"
         content.userInfo = ["customData":"fizzbuzz"]
         
         //ini kondisi waktu nnti bisa disesuaikan, saat ini 1 jam 5 detik aja
@@ -86,9 +86,9 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource{
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         // TODO
-//        guard row < timeHour.count else {
-//            return
-//        }
+        //        guard row < timeHour.count else {
+        //            return
+        //        }
         
         ReminderTimePick.text = timeHour[row]
         ReminderTimePick.resignFirstResponder()

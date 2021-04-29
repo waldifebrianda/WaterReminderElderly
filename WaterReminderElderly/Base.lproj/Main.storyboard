@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sff-9x-cBa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sff-9x-cBa">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -420,9 +420,16 @@ Time</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="xOu-fR-YS8">
-                                <rect key="frame" x="52" y="241" width="279" height="4"/>
+                                <rect key="frame" x="20" y="241" width="350" height="4"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/2500 ml" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GK8-3L-9SB">
+                                <rect key="frame" x="111" y="234" width="171" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="FDL-Wo-ykX"/>
                         <color key="backgroundColor" red="0.30196078431372547" green="0.72549019607843135" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -466,6 +473,7 @@ Time</string>
                         <outlet property="plusButton" destination="eOS-hD-nNR" id="YL0-lb-DGa"/>
                         <outlet property="progressBar" destination="xOu-fR-YS8" id="Mg1-Di-bC7"/>
                         <outlet property="sudahMinumButton" destination="Mdz-X5-Itm" id="yP0-EL-l8p"/>
+                        <outlet property="totalWaterDrinkLabel" destination="GK8-3L-9SB" id="trc-nI-h3U"/>
                         <outlet property="welcomeDateLabel" destination="izs-yG-CL1" id="h1g-cA-mug"/>
                         <outlet property="welcomeLabel" destination="zHB-IY-87h" id="vRd-vR-UOG"/>
                     </connections>
