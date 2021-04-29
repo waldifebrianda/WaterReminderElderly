@@ -447,6 +447,8 @@ Time</string>
                         <outlet property="plusButton" destination="eOS-hD-nNR" id="YL0-lb-DGa"/>
                         <outlet property="progressBar" destination="xOu-fR-YS8" id="Mg1-Di-bC7"/>
                         <outlet property="sudahMinumButton" destination="Mdz-X5-Itm" id="yP0-EL-l8p"/>
+                        <outlet property="welcomeDateLabel" destination="izs-yG-CL1" id="h1g-cA-mug"/>
+                        <outlet property="welcomeLabel" destination="zHB-IY-87h" id="vRd-vR-UOG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3t6-s4-nkr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
