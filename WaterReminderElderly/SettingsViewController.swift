@@ -9,8 +9,8 @@ import Foundation
 import UIKit
 
 class SettingsViewController: UIViewController{
-    @IBOutlet weak var saveButton: UIButton!
-    
+    @IBOutlet weak var saveButton: UIButton!    
+    @IBOutlet weak var ReminderTimePick: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()

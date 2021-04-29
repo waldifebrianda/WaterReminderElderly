@@ -196,6 +196,15 @@ Time</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4JT-Os-NSY">
+                                <rect key="frame" x="167" y="473" width="209" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="STa-Pa-8UR"/>
+                                    <constraint firstAttribute="width" constant="207" id="cdu-do-KcM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="I6Y-fN-LtT"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
@@ -266,6 +275,7 @@ Time</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="settingsIcon" selectedImage="settingsIcon" id="Bvk-zA-AyD"/>
                     <connections>
+                        <outlet property="ReminderTimePick" destination="4JT-Os-NSY" id="Yen-7H-v10"/>
                         <outlet property="saveButton" destination="zoh-t1-NTb" id="Vra-cD-5ri"/>
                     </connections>
                 </viewController>
