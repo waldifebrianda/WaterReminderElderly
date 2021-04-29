@@ -25,30 +25,45 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmA-Xn-WuB">
-                                <rect key="frame" x="20" y="601" width="374" height="161"/>
-                                <string key="text">drink water reminder is  an application with main function to help us keep water tracker we need to replenish and water drinking reminder in time</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elderink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9u-Ng-ruf">
+                                <rect key="frame" x="86" y="653" width="240" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Ejh-xP-GG1"/>
+                                    <constraint firstAttribute="height" constant="60" id="scv-1s-Gzw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconApp" translatesAutoresizingMaskIntoConstraints="NO" id="ooL-HC-1Yp">
                                 <rect key="frame" x="74" y="315" width="266" height="266"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Elderly Reminder Drink " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmA-Xn-WuB">
+                                <rect key="frame" x="105" y="721" width="202" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="REK-fZ-gdc"/>
+                                    <constraint firstAttribute="width" constant="202" id="lkm-tK-uUs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="nD6-LY-J3d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="6uQ-eY-mfe"/>
                             <constraint firstItem="nD6-LY-J3d" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9eP-gl-oTl"/>
-                            <constraint firstItem="mmA-Xn-WuB" firstAttribute="centerX" secondItem="ooL-HC-1Yp" secondAttribute="centerX" id="TIh-kb-nM0"/>
-                            <constraint firstItem="mmA-Xn-WuB" firstAttribute="centerX" secondItem="nD6-LY-J3d" secondAttribute="centerX" id="XSo-WM-3kR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mmA-Xn-WuB" secondAttribute="bottom" constant="100" id="cDP-hH-Q5Q"/>
+                            <constraint firstItem="O9u-Ng-ruf" firstAttribute="top" secondItem="ooL-HC-1Yp" secondAttribute="bottom" constant="72" id="Bef-cD-BOH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O9u-Ng-ruf" secondAttribute="trailing" constant="88" id="FHO-N1-ZFR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mmA-Xn-WuB" secondAttribute="bottom" constant="107" id="ICV-1v-MFx"/>
+                            <constraint firstItem="O9u-Ng-ruf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="P3u-Cl-ypn"/>
                             <constraint firstItem="nD6-LY-J3d" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="dfa-lu-Z6e"/>
                             <constraint firstItem="ooL-HC-1Yp" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dxc-lW-QAs"/>
-                            <constraint firstItem="mmA-Xn-WuB" firstAttribute="top" secondItem="ooL-HC-1Yp" secondAttribute="bottom" constant="20" id="l7B-pM-lns"/>
+                            <constraint firstItem="mmA-Xn-WuB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="eLq-Gy-sAS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mmA-Xn-WuB" secondAttribute="trailing" constant="107" id="f76-JP-tDF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="O9u-Ng-ruf" secondAttribute="bottom" constant="149" id="fqe-ro-y6L"/>
                             <constraint firstItem="ooL-HC-1Yp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nxk-O3-jTM"/>
-                            <constraint firstItem="mmA-Xn-WuB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="q76-7t-K5P"/>
                         </constraints>
                     </view>
                 </viewController>
