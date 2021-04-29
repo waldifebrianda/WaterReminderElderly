@@ -183,6 +183,9 @@ Time</string>
                                 <state key="normal" title="Save">
                                     <color key="titleColor" systemColor="systemTealColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonSaveall:" destination="jCr-pP-do9" eventType="touchUpInside" id="KBt-XN-QMF"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lZF-2p-5yi">
                                 <rect key="frame" x="165" y="473" width="209" height="34"/>

@@ -17,4 +17,8 @@ class SettingsViewController: UIViewController{
         
         saveButton.layer.cornerRadius = 16
     }
+    
+    @IBAction func buttonSaveall(_ sender: Any) {
+    }
+    
 }
