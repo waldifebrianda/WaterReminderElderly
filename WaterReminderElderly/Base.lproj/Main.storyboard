@@ -196,8 +196,8 @@ Time</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4JT-Os-NSY">
-                                <rect key="frame" x="167" y="473" width="209" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4JT-Os-NSY">
+                                <rect key="frame" x="165" y="473" width="211" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="STa-Pa-8UR"/>
                                     <constraint firstAttribute="width" constant="207" id="cdu-do-KcM"/>
@@ -233,6 +233,8 @@ Time</string>
                             <constraint firstItem="4aG-Ba-lvs" firstAttribute="top" secondItem="BDb-qu-m8E" secondAttribute="bottom" constant="15" id="LmQ-Kh-2cf"/>
                             <constraint firstItem="o0M-dQ-7Hs" firstAttribute="top" secondItem="q6T-r9-vGX" secondAttribute="bottom" constant="13" id="O62-OP-3wg"/>
                             <constraint firstItem="Cs1-Ql-Sfh" firstAttribute="top" secondItem="bPj-Tc-wlV" secondAttribute="bottom" constant="13" id="Ows-QL-RhL"/>
+                            <constraint firstItem="4JT-Os-NSY" firstAttribute="top" secondItem="jQH-Oz-oON" secondAttribute="bottom" constant="20" id="PP7-CW-ojd"/>
+                            <constraint firstItem="4JT-Os-NSY" firstAttribute="leading" secondItem="I6Y-fN-LtT" secondAttribute="leading" constant="165" id="R7j-LY-LZH"/>
                             <constraint firstItem="I6Y-fN-LtT" firstAttribute="trailing" secondItem="zoh-t1-NTb" secondAttribute="trailing" constant="124" id="Rw4-SK-vbH"/>
                             <constraint firstItem="I6Y-fN-LtT" firstAttribute="trailing" secondItem="LQb-hU-ILk" secondAttribute="trailing" constant="16" id="SNK-8E-Gfh"/>
                             <constraint firstItem="fnq-fm-Dy0" firstAttribute="leading" secondItem="I6Y-fN-LtT" secondAttribute="leading" constant="25" id="SkC-NN-IUa"/>
@@ -249,6 +251,7 @@ Time</string>
                             <constraint firstItem="I6Y-fN-LtT" firstAttribute="trailing" secondItem="jQH-Oz-oON" secondAttribute="trailing" constant="16" id="bKq-D3-CJU"/>
                             <constraint firstItem="I6Y-fN-LtT" firstAttribute="trailing" secondItem="o0M-dQ-7Hs" secondAttribute="trailing" constant="16" id="bc4-tB-8iy"/>
                             <constraint firstItem="vk0-gY-Jsb" firstAttribute="top" secondItem="Jqq-hD-2Qu" secondAttribute="bottom" constant="31" id="chj-Je-tJv"/>
+                            <constraint firstItem="I6Y-fN-LtT" firstAttribute="trailing" secondItem="4JT-Os-NSY" secondAttribute="trailing" constant="14" id="d2D-bV-7wz"/>
                             <constraint firstItem="a0G-4W-EYB" firstAttribute="leading" secondItem="I6Y-fN-LtT" secondAttribute="leading" constant="25" id="eIg-E5-sDi"/>
                             <constraint firstItem="jQH-Oz-oON" firstAttribute="leading" secondItem="Cs1-Ql-Sfh" secondAttribute="trailing" constant="167" id="fI0-8p-k74"/>
                             <constraint firstItem="lZF-2p-5yi" firstAttribute="leading" secondItem="I6Y-fN-LtT" secondAttribute="leading" constant="165" id="fi8-eU-Pnj"/>
